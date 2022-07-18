@@ -3,7 +3,8 @@
 
 /* common utilitise */
 body{
-   padding: 0;
+    padding: 0;
+    margin: 0;
     background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
@@ -21,6 +22,53 @@ main{
     padding: 30px;
     margin-top: 21px;
     border-radius: 5px;
+}
+
+/* navbar */
+header{
+    background-color: #562EFF;
+}
+nav{
+    width: 870px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+.logo img{
+    width: 42px;
+    height: 51px;
+   margin-right: 8px;
+}
+.navs{
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+.nav-item li{
+    margin-left: 20px;
+    list-style: none;
+}
+.nav-item li a{
+   text-decoration: none;
+   color: #fff;
+}
+.nav img{
+    width: 51px;
+    height: 51px;
 }
 /* top players style */
 .top-players{
